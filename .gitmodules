@@ -1,3 +1,6 @@
 [submodule "modules/MMM-Snow"]
 	path = modules/MMM-Snow
 	url = https://github.com/MichMich/MMM-Snow.git
+[submodule "modules/MMM-Instagram"]
+	path = modules/MMM-Instagram
+	url = https://github.com/jeffjoe/MMM-Instagram.git

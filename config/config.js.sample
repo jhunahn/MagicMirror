@@ -96,6 +96,20 @@ var config = {
 				theme: "water"
 			}
 		},
+		{
+			module: 'MMM-Instagram',
+			position: 'bottom_right',
+			disabled: true,
+			config: {
+				access_token: 'YOUR ACCESS TOKEN',
+				count: 200,
+				min_timestamp: 0,
+				animationSpeed: 2500,
+				updateInterval: 12500,
+				instaMaxWidth: '100%', // Optional parameter, can be relative (percentage) or absolute (px)
+				instaMaxHeight: '100%' // Optional parameter, can be absolute only (px)
+			}
+		},
 	]
 
 };
