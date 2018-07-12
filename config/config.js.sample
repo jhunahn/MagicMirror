@@ -58,9 +58,9 @@ var config = {
 			module: "currentweather",
 			position: "top_right",
 			config: {
-				location: "New York",
-				locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				location: "Seoul",
+				locationID: "1835848",  //ID from http://www.openweathermap.org/help/city_list.txt
+				appid: "YOUR APP ID"
 			}
 		},
 		{
@@ -68,9 +68,9 @@ var config = {
 			position: "top_right",
 			header: "Weather Forecast",
 			config: {
-				location: "New York",
-				locationID: "5128581",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				location: "Seoul",
+				locationID: "1835848",  //ID from http://www.openweathermap.org/help/city_list.txt
+				appid: "YOUR APP ID"
 			}
 		},
 		{
