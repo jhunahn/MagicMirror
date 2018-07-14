@@ -113,6 +113,14 @@ var config = {
 			}
 		},
 		{
+			module: 'MMM-AirQuality',
+			position: 'top_right', // you may choose any location
+			config: {
+				lang: 'kr',
+				location: 'korea/gyeonggi/yongin-si/giheung'	// the location to check the index for
+			}
+		},
+		{
 			module: "newsfeed",
 			position: "bottom_bar",
 			disabled: false,
