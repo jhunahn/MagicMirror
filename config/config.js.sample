@@ -35,12 +35,14 @@ var config = {
 		},
 		{
 			module: "clock",
-			position: "top_left"
+			position: "top_left",
+			disabled: false,
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
+			header: "coming up next",
 			position: "top_left",
+			disabled: false,
 			config: {
 				calendars: [
 					{
@@ -53,8 +55,12 @@ var config = {
 		{
 			module: "compliments",
 			position: "lower_third",
+			disabled: false,
 			config: {
 				compliments: {
+					anytime: [
+						"What's up?"
+					],
 					morning: [
 						"Good morning, BABY",
 						"Enjoy your day!",
@@ -88,6 +94,7 @@ var config = {
 		{
 			module: "currentweather",
 			position: "top_right",
+			disabled: false,
 			config: {
 				location: "Seoul",
 				locationID: "1835848",  //ID from http://www.openweathermap.org/help/city_list.txt
@@ -98,6 +105,7 @@ var config = {
 			module: "weatherforecast",
 			position: "top_right",
 			header: "Weather Forecast",
+			disabled: false,
 			config: {
 				location: "Seoul",
 				locationID: "1835848",  //ID from http://www.openweathermap.org/help/city_list.txt
@@ -107,6 +115,7 @@ var config = {
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
+			disabled: false,
 			config: {
 				feeds: [
 					{
