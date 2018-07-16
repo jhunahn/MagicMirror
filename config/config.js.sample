@@ -48,6 +48,18 @@ var config = {
 					{
 						symbol: "calendar-check-o ",
 						url: "webcal://www.calendarlabs.com/templates/ical/US-Holidays.ics"
+					},
+					{
+						symbol: "sun-o",
+						url: "http://icalx.com/public/limitless00/Korea,_Republic_of_-_Public_Holidays.ics"
+					},
+					{
+						symbol: "moon-o",
+						url: "http://www.google.com/calendar/ical/2oukaib1orcd1av7ufj8qec2b8%40group.calendar.google.com/public/basic.ics",
+					},
+					{
+						symbol: "birthday-cake",
+						url: ""
 					}
 				]
 			}
